@@ -2,6 +2,8 @@
 
 > Originally published to https://github.com/jakeread/generating-extrudate-flow-models in the wee hours of March 11th, 2025 
 
+> Mirrored to https://gitlab.cba.mit.edu/jakeread/generating-extrudate-flow-models on March 13th, 2025 
+
 > I hereby dedicate the contents of this disclosure to the public domain so that it may serve as prior art.  
 
 3D Printers spend most of their time accelerating and deccelerating because their motion platforms are controlled by actuators with limited torque, and their structures and transmissions deflect during changes to velocity of the end effector. These physical limits, combined with limits to flowrate (and some other details) are the main limit 3D printing speed. Controlling flow under these dynamical conditions (stopping and starting) presents challenges to printer controllers (and parameter tuners) that can be overcome in a sensible way using models of the flow. 
